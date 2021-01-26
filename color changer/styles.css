@@ -1,0 +1,52 @@
+html, body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.top-full-box {
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 4px 4px 5px grey;
+}
+.left-side, .right-side {
+    width: 50%;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.middle-full-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+    margin: auto;
+}
+
+.middle-half-box {
+    width: 35%;
+    text-align: center;
+}
+
+.middle-half-box > button {
+    padding: 10px 20px;
+    font-weight: bold;
+    font-family: inherit;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    border: 3px solid black;
+    background: lightpink;
+}
+
+.middle-half-box > h1 {
+    background: black;
+    color: lightpink;
+    padding: 10px;
+    border-radius: 10px;
+}

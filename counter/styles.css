@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.content-box {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+}
+
+.name > h1 {
+    font-size: 4rem;
+    margin: 0;
+}
+
+.counter {
+    font-size: 6rem;
+    margin-bottom: 1rem;
+}
+
+button {
+    border: 3px solid black;
+    background: bisque;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+button:hover {
+    background: pink;
+    color: black;
+    border: 3px solid black;
+}
